@@ -1,29 +1,36 @@
+/* Keep default browser look, just improve spacing & size */
+
 body {
     font-family: system-ui, -apple-system, sans-serif;
     margin: 0;
     padding: 1rem;
-    line-height: 1.6;
-}
-
-/* Keep content readable on large screens */
-main {
     max-width: 800px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
-/* Lists look normal */
+/* Headings */
+h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Lists */
 ul {
-    padding-left: 1.2rem;
+    padding-left: 1.25rem;
 }
 
-/* Links behave like links */
+/* Links stay normal */
 a {
-    color: #0066cc;
+    color: #0000ee; /* classic blue */
 }
 
-/* Slightly larger text on big screens */
-@media (min-width: 900px) {
-    body {
-        font-size: 1.05rem;
-    }
-}
+/* Slight spacing between list items */
+li {
+    margin-bottom: 0.4r
