@@ -1,7 +1,7 @@
 /* Keep default browser look, just improve spacing & size */
 
 body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 1rem;
     max-width: 800px;
