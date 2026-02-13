@@ -31,6 +31,7 @@ a {
     color: #0000ee; /* classic blue */
 }
 
-/* Slight spacing between list items */
-li {
-    margin-bottom: 0.4r
+/* visited links change color */
+a:visited {
+    color: #551a8b;
+}
